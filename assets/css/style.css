@@ -1,0 +1,417 @@
+html,
+body {
+	height: 100%;
+	background-image: url('../images/whirlpool.png');
+	background-repeat: repeat repeat;
+	margin: 0;
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 16px;
+}
+
+.content {
+	min-height: 100%;
+	width: 100%;
+}
+
+.content-inside {
+	float: left;
+	width: 100%;
+	margin:auto;
+}
+
+#header {
+	height: 100px;
+	line-height: 50px;
+	background-color: #fff;
+	border-bottom: 5px solid #ccc;
+	margin: auto;
+	position: relative;
+}
+
+#sitetitle {
+	background-color: #4aaaa5;
+	padding: 25px;
+	width: 200px;
+	z-index: 2000;
+	float: left;
+	color: #fff;
+	vertical-align: middle;
+}
+
+#nav {
+	background-color: #fff;
+	float: right;
+	z-index: 1000;
+	width: 400px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 25px;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav li {
+	display: inline;
+	padding: 20px;
+	color: #777777;
+}
+
+#nav a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#nav a:hover {
+	color: #199E95;
+	font-size: 22px;
+}
+
+#pagecontent,
+#headercontent {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#section1 {
+	width: 620px;
+	background-color: #fff;
+	float: left;
+	margin-top: 20px;
+	padding: 20px;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#section2 {
+	width: 240px;
+	background-color: #fff;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+#profpic {
+	height: 200px;
+	width: 200px;
+	float: left;
+	align: left;
+	display: inline;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#bio {
+	display: inline;
+	padding-top: 40px;
+	line-height:1.5;
+}
+
+.social {
+	padding: 20px 10px 20px 10px;
+}
+
+#github img:last-child {
+	display: none
+}
+
+#github:hover img:first-child {
+	display: none
+}
+
+#github:hover img:last-child {
+	display: inline-block
+}
+
+#linkedin img:last-child {
+	display: none
+}
+
+#linkedin:hover img:first-child {
+	display: none
+}
+
+#linkedin:hover img:last-child {
+	display: inline-block
+}
+
+#stacko img:last-child {
+	display: none
+}
+
+#stacko:hover img:first-child {
+	display: none
+}
+
+#stacko:hover img:last-child {
+	display: inline-block
+}
+
+
+/* contact form styling */
+
+.field {
+	padding: 20px;
+}
+
+.label {
+	font-size: 16px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	/* padding-bottom: 10px; */
+}
+
+placeholder {
+	font-size: 14px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 5px;
+}
+
+#name {
+	margin-top: 10px;
+	width: 100%;
+	padding: 5px;
+}
+
+#email {
+	margin-top: 10px;
+	width: 100%;
+	padding: 5px;
+}
+
+#message {
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	padding: 5px;
+}
+
+#button {
+	padding: 20px;
+	color: #4aaaa5;
+}
+
+button {
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+	font-size: 16px;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-shadow: -1px 1px #417cb8;
+	border: none;
+}
+
+button:hover {
+	background-color: #ccc;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline-color: #4aaaa5;
+}
+
+
+/* profile page styling */
+
+.stockphotos {
+	width: 285px;
+	height: 200px;
+	margin: 10px;
+	z-index: 1000;
+	float: left;
+	position: relative;
+}
+
+.banners {
+	width: 285px;
+	height: 50px;
+	background-color: #199E95;
+	z-index: 2000;
+	float: left;
+	position: absolute;
+	margin: 150px 10px 10px 10px;
+}
+
+.bannertext {
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 15px;
+	z-index: 3000;
+}
+
+
+/* footer styling */
+
+.footer {
+	background-color: #666666;
+	border-style: solid;
+	border-top-color: #199E95;
+	border-top-width: 10px;
+	margin-top: 100px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 30px;
+	color: #777777;
+	position: relative;
+	z-index: 5500;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/* Media Queries start here:  */
+
+@media screen and (max-width: 980px) {
+	#headercontent {
+		margin-left: 10%;
+	}
+	#section1 {
+		width: 40%;
+		margin-left: 10%;
+	}
+	#profpic {
+		width: 100%;
+		height:80%
+	}
+	#nav {
+		margin-right: 15%;
+	}
+	#section2 {
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	#pagecontent,
+	#headercontent {
+		width:100%;
+		margin:auto;
+	}
+
+	#section1 {
+		width: 75%;
+	}
+
+	#section2 {
+		margin-left: 10%;
+		width: 75%;
+		text-align: left;
+	}
+	
+	#profpic {
+		width: 40%;
+		height:40%;
+	}
+
+	#sitetitle {
+		width: 30%;
+		padding:20px;
+		margin-left:10%;
+	}
+
+	#nav {
+		margin-right:0%;
+	}
+
+	#header {
+		height: 90px;
+	}
+
+	.stockphotos {
+		height:175px;
+		width:250px;
+	}
+
+	.banners {
+		height:50px;
+		width:250px;
+		margin:120px 10px 10px 10px;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+
+	#sitetitle {
+		width: 100%;
+		margin:0;
+		padding-top:10px;
+		padding-bottom:10px;
+		text-align:center;
+	}
+
+	#header {
+		height: 150px;
+		margin:0;
+		width:100%;
+	}
+
+	#nav {
+		margin:0;
+		padding:15px;
+		width:100%;
+	}
+
+	.stockphotos {
+		height:300px;
+		width:420px;
+	}
+
+	.banners {
+		height:75px;
+		width:420px;
+		margin:200px 10px 10px 10px;
+	}
+
+	.bannertext {
+		line-height: 40px;
+	}
+
+	#profpic {
+		width: 100%;
+		height:100%;
+	}
+
+}
